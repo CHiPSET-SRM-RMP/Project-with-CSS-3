@@ -44,18 +44,21 @@ nav>a {
     background-color: #ffffff;
     color: darkblue;
 }
+main{
+    display: flex;
+}
 
 .left {
-    position: absolute;
     background-color: #0a4275;
     width: 20%;
-    height: 100%;
-    top: 246px;
+    min-width: 160px;
+    /* top: 246px; */
     bottom: 100%;
+    padding-top: 8px;
 }
 
 .right {
-    margin-left: 22%;
+    padding: 2%;
 }
 
 section {
@@ -63,11 +66,11 @@ section {
 }
 
 aside img {
-    width: 93%;
+    width: 95%;
     height: 80px;
     display: block;
     border: 2px solid black;
-    margin: 20px 5px;
+    margin-bottom: 14px;
     align-self: center;
     border-radius: 5px;
 }
